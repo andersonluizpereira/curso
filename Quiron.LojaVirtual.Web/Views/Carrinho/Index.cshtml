@@ -45,7 +45,8 @@
         <tr>
             <td colspan="3" class="text-right">Total:</td>
             <td class="text-right">
-                @Model.Carrinho.ObterValorTotal.ToString("c");
+                @Model.Carrinho.ObterValorTotal().ToString("c")
+                
             </td>
         </tr>
     </tfoot>
@@ -55,6 +56,6 @@
     <a class="btn btn-primary" href="@Model.ReturnUrl">
         Continuar Comprando
     </a>
-    @Html.ActionLink("Fechar o pedido", "FecharPedido", "Carrinho", new {@class ="btn btn-primary "});
+    @Html.ActionLink("Fechar o pedido", "FecharPedido", "Carrinho", new {@class ="btn btn-primary "})
 
 </div>
