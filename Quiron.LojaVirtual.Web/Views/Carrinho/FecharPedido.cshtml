@@ -18,6 +18,8 @@
     <div class="form-group">
         <label>Nome do cliente :</label>
         @Html.TextBoxFor(x => x.NomeCliente, new { @class="form-control"})
+        
+
     </div>
    
      <h3>Dados para entrega</h3>
@@ -37,7 +39,7 @@
     <h3>Opções</h3>
     <div class="checkbox">
         <label>
-          @Html.EditorFor(x=>x.EmbrulhaPresente)
+          @Html.EditorFor(x=>x.EmbrulhaPresente) Embrulhar para presente ?.
         </label>
     </div>
 

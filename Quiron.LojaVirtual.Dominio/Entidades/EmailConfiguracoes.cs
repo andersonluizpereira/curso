@@ -7,20 +7,20 @@ namespace Quiron.LojaVirtual.Dominio.Entidades
 {
   public class EmailConfiguracoes
     {
-      public bool UsarSsl = false;
+      public bool UsarSsl = true;
 
-      public string ServidorSmtp = "smtp.servidor.com.br";
+      public string ServidorSmtp = "smtp.gmail.com";
 
       public int ServidorPorta = 587;
 
-      public string Usuario = "usuarioEmail";
+      public string Usuario = "andy2903.alp@gmail.com";
 
       public bool EscreverArquivo = false;
 
       public string PastaArquivo = @"C:\envioemail";
 
-      public string De = "artemmis@artemmis.com.br";
+      public string De = "andy2903.alp@gmail.com";
 
-      public string Para = "artemmis@artemmis.com.br";
+      public string Para = "andy2903.alp@gmail.com";
     }
 }
