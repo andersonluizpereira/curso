@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 using System.Web.UI.WebControls;
+using Quiron.LojaVirtual.Dominio.Entidades;
 using Quiron.LojaVirtual.Dominio.Repositorio;
 using Quiron.LojaVirtual.Web.Models;
-using Quiron.LojaVirtual.Dominio.Entidades;
 
 namespace Quiron.LojaVirtual.Web.Controllers
 {
@@ -28,6 +28,8 @@ namespace Quiron.LojaVirtual.Web.Controllers
                     .Skip((pagina - 1) * ProdutosPorPagina)
                     .Take(ProdutosPorPagina),
 
+
+
                 Paginacao = new Paginacao
                 {
                     PaginaAtual = pagina,
@@ -42,7 +44,10 @@ namespace Quiron.LojaVirtual.Web.Controllers
             return View(model);
         }
 
-      //  [Route("Vitrine/ObterImagem/{produtoid}")]
+
+
+
+        [Route("Vitrine/ObterImagem/{produtoid}")]
         public FileContentResult ObterImagem(int produtoId)
         {
             _repositorio = new ProdutosRepositorio();
@@ -54,8 +59,8 @@ namespace Quiron.LojaVirtual.Web.Controllers
                 return File(prod.Imagem, prod.ImageMimeType);
             }
 
-            return null;
 
+            return null;
         }
     }
 }

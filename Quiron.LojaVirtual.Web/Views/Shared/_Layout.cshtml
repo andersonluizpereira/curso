@@ -1,18 +1,22 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Quiron Loja Virtual</title>
+    <title>@ViewBag.Title - Artemmis Loja Virtual</title>
 
-    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" type="text/css" />
+    @*<link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="~/Content/bootstrap-theme.css" rel="stylesheet" type="text/css" />
 
-    <link href="~/Content/ErroEstilo.css" rel="stylesheet" />
+        <link href="~/Content/ErroEstilo.css" rel="stylesheet" />
 
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>*@
 
+   
+    @Styles.Render("~/Content/css")
+    
 
 </head>
 <body>
@@ -20,7 +24,7 @@
 
     <div class="navbar navbar-inverse" role="navigation">
 
-        <a class="navbar-brand" href="#">Quiron Loja Virtual - Seu esporte é aqui </a>
+        <a class="navbar-brand" href="#">Artemmis Loja Virtual - Seu esporte é aqui </a>
 
         @Html.Action("Resumo", "Carrinho")
 
@@ -40,9 +44,10 @@
     </div>
 
 
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
 
-
-
+    @RenderSection("scritps", required: false)
 
 
 </body>
