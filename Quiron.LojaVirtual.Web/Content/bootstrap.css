@@ -16,6 +16,12 @@ html {
     width: 50px;
 
 }
+
+a.deco-none {
+color:#000000;
+text-decoration:none;
+}
+
 body {
   margin: 0;
 }

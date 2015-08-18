@@ -30,7 +30,7 @@ namespace Quiron.LojaVirtual.Web.App_Start
            ));
 
 
-           BundleTable.EnableOptimizations = true;
+           BundleTable.EnableOptimizations = false;
 
        }
 
