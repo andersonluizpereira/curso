@@ -4,7 +4,7 @@ using System.Web.Mvc;
 using Quiron.LojaVirtual.Dominio.Entidades;
 using Quiron.LojaVirtual.Dominio.Repositorio;
 
-namespace Quiron.LojaVirtual.Web.Areas.Administrativo.Controllers
+namespace Quiron.LojaVirtual.Web.Areas.Ponto.Controllers
 {
 
     [Authorize]

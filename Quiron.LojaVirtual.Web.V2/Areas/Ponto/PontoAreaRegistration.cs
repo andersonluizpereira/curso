@@ -2,23 +2,23 @@
 
 namespace Quiron.LojaVirtual.Web.Areas.Ponto
 {
-    public class AdministrativoAreaRegistration : AreaRegistration 
+    public class PontoAreaRegistration : AreaRegistration 
     {
         public override string AreaName 
         {
             get 
             {
-                return "Administrativo";
+                return "Ponto";
             }
         }
 
         public override void RegisterArea(AreaRegistrationContext context) 
         {
             context.MapRoute(
-                "Administrativo_default",
-                "Administrativo/{controller}/{action}/{id}",
+                "Ponto_default",
+                "Ponto/{controller}/{action}/{id}",
                 new { controller="Produto", action = "Index", id = UrlParameter.Optional },
-                new [] { "Quiron.LojaVirtual.Web.Areas.Administrativo.Controllers"}
+                new [] { "Quiron.LojaVirtual.Web.Areas.Ponto.Controllers"}
             );
         }
     }

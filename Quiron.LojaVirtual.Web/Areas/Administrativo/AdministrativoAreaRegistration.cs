@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace Quiron.LojaVirtual.Web.Areas.Administrativo
+namespace Quiron.LojaVirtual.Web.Areas.Ponto
 {
     public class AdministrativoAreaRegistration : AreaRegistration 
     {
