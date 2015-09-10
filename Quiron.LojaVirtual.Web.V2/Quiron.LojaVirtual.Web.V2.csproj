@@ -227,11 +227,9 @@
     <Content Include="Areas\Administrativo\Views\Shared\_AdministrativoLayout.cshtml" />
     <Content Include="Areas\Administrativo\Views\web.config" />
     <Content Include="Areas\Ponto\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Ponto\Views\Produto\Alterar.cshtml" />
-    <Content Include="Areas\Ponto\Views\Produto\Confirmacao.cshtml" />
-    <Content Include="Areas\Ponto\Views\Produto\Index.cshtml" />
     <Content Include="Areas\Ponto\Views\Shared\_AdministrativoLayout.cshtml" />
     <Content Include="Areas\Ponto\Views\web.config" />
+    <Content Include="Areas\Ponto\Views\Usuarios\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -271,7 +269,6 @@
     <Folder Include="Areas\Administrativo\Views\Autenticacao\" />
     <Folder Include="Areas\Ponto\Controllers\" />
     <Folder Include="Areas\Ponto\Models\" />
-    <Folder Include="Areas\Ponto\Views\Autenticacao\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Categoria\" />
     <Folder Include="Views\Menu\" />
