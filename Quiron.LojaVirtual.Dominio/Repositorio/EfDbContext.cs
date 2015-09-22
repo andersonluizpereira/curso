@@ -22,6 +22,10 @@ namespace Quiron.LojaVirtual.Dominio.Repositorio
         public DbSet<Administrador> Administradores { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<MarcaVitrine> MarcaVitrine { get; set; }
+        public DbSet<ClubesNacionais> ClubesNacionais { get; set; }
+        public DbSet<ClubesInternacionais> ClubesInternacionais { get; set; }
+
+        public DbSet<ClubesSelecoes> ClubesSelecoes { get; set; }
        
        
 
@@ -32,6 +36,7 @@ namespace Quiron.LojaVirtual.Dominio.Repositorio
             modelBuilder.Entity<Administrador>().ToTable("Administradores");
             modelBuilder.Entity<Categoria>().ToTable("Categorias");
             modelBuilder.Entity<MarcaVitrine>().ToTable("MarcaVitrine");
+            modelBuilder.Entity<ClubesSelecoes>().ToTable("ClubesSelecoes");
 
         }
 
