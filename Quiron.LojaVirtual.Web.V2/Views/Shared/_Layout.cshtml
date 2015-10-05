@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <!-- Title here -->
-    <title>Title - Quiron</title>
+    <title>Title - Artemmis</title>
     <!-- Description, Keywords and Author -->
     <meta name="description" content="Your description">
     <meta name="keywords" content="Your,Keywords">
@@ -22,7 +22,7 @@
 <body>
 
 
-    @RenderBody()
+
 
 
 
@@ -85,7 +85,7 @@
                 <div class="col-md-2 col-sm-2">
                     <!-- Logo -->
                     <div class="logo">
-                        <h1> @Html.ActionLink("Quiron", "Index") </h1>
+                        <h1> @Html.ActionLink("Artemmis", "Index") </h1>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@
     <!-- Page title -->
     <div class="page-title">
         <div class="container">
-            <h2><i class="fa fa-shopping-cart color"></i> Falou em esportes, pense Quiron <small>Seu esporte é aqui</small></h2>
+            <h2><i class="fa fa-shopping-cart color"></i> Falou em esportes, pense Artemmis <small>Seu esporte é aqui</small></h2>
             <hr />
         </div>
     </div>
@@ -125,7 +125,15 @@
 
     <div class="page-content blocky">
         <div class="container">
+            @RenderBody()
+        </div>
+    </div>
 
+
+
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            @Html.Partial("_Marcas")
         </div>
     </div>
 
