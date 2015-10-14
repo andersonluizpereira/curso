@@ -31,6 +31,7 @@ namespace Quiron.LojaVirtual.Dominio.Repositorio
         public DbSet<Grupo> Grupos { get; set; }
         public DbSet<Marca> Marcas { get; set; }
         public DbSet<Modalidade> Modalidades { get; set; }
+        public DbSet<ProdutoVitrine> ProdutoVitrine { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
