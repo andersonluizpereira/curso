@@ -45,5 +45,7 @@ namespace Quiron.LojaVirtual.Dominio.Repositorio
             return _context.ClubesSelecoes.OrderBy(c => c.LinhaDescricao);
         }
 
+     
+
     }
 }

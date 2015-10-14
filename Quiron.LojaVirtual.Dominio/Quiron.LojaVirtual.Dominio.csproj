@@ -81,8 +81,13 @@
     <Compile Include="Entidades\Categoria.cs" />
     <Compile Include="Entidades\EmailConfiguracoes.cs" />
     <Compile Include="Entidades\EmailPedido.cs" />
+    <Compile Include="Entidades\FaixaEtaria.cs" />
     <Compile Include="Entidades\Funcao.cs" />
+    <Compile Include="Entidades\Genero.cs" />
+    <Compile Include="Entidades\Grupo.cs" />
     <Compile Include="Entidades\Hora.cs" />
+    <Compile Include="Entidades\Marca.cs" />
+    <Compile Include="Entidades\Modalidade.cs" />
     <Compile Include="Entidades\Mural.cs" />
     <Compile Include="Entidades\Mural2.cs" />
     <Compile Include="Entidades\Pedido.cs" />
