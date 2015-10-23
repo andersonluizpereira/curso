@@ -1,21 +1,16 @@
-﻿
-    @{
-        Layout = null;
-    }
+﻿@model Quiron.LojaVirtual.Web.V2.Models.ProdutosViewModel
 
-    <!DOCTYPE HTML>
+@{
+    ViewBag.Title = "Home Page";
+}
 
-    <html>
-    <head>
-        <meta name="viewport" content="width=device-width" />
-        <title>Index</title>
-    </head>
-    <body>
-        <div>
-            @*@foreach (var item in Model.)
-            {
-                
-            }*@
-        </div>
-    </body>
-</html>
+
+<div class="row">
+
+    <div class="col-md-12 col-sm-12">
+        @Html.Partial("_Marcas")
+    </div>
+</div>
+
+
+@Html.Partial("_Nav", @Model)
