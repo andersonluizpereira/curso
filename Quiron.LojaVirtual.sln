@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.Dominio", "Quiron.LojaVirtual.Dominio\Quiron.LojaVirtual.Dominio.csproj", "{FD15E3A4-BEFB-4C52-AEB9-4F33ED4AB50D}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.UnitTest", "Quiron.LojaVirtual.UnitTest\Quiron.LojaVirtual.UnitTest.csproj", "{B94652B0-D448-4318-BFF9-01AEC1A9A4C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.Web.V2", "Quiron.LojaVirtual.Web.V2\Quiron.LojaVirtual.Web.V2.csproj", "{2E22C898-A4D4-414D-B537-6A368C601066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiron.LojaVirtual.Web.Admin", "Quiron.LojaVirtual.Web.Admin\Quiron.LojaVirtual.Web.Admin.csproj", "{F7BAE85B-BDD0-412A-A154-CB4BE410D583}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2E22C898-A4D4-414D-B537-6A368C601066}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E22C898-A4D4-414D-B537-6A368C601066}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E22C898-A4D4-414D-B537-6A368C601066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BAE85B-BDD0-412A-A154-CB4BE410D583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BAE85B-BDD0-412A-A154-CB4BE410D583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BAE85B-BDD0-412A-A154-CB4BE410D583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BAE85B-BDD0-412A-A154-CB4BE410D583}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
